@@ -1,0 +1,238 @@
+.aristo-theme .sc-segmented-view {
+  display: block;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment {
+	text-decoration: none ;
+	color: black ;
+	text-align: center ;
+	font-weight: bold;
+}
+
+.aristo-theme a.sc-segment:active, a.sc-segment:focus {
+	outline: none;
+}
+
+
+.aristo-theme .sc-segmented-view a.sc-segment {
+	display: block;
+	top: 0;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+  text-shadow: #FAFAFA 0 1px 0;
+  color: #4F4F4F;
+	margin-left: -1px;
+}
+
+.aristo-theme .sc-segmented-view .sc-button-inner {
+	display: block;
+	min-width: 20px;
+	min-height: 24px;
+	border: none;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment {
+	padding-left: 13px;
+	padding-right: 0;
+	border: none;
+	background:  transparent;
+}
+
+
+.aristo-theme .sc-segmented-view a.sc-segment .sc-button-inner {
+	padding-left: 0;
+	padding-right: 13px;
+	background:  transparent;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment label {
+	display:  block;
+	line-height: 24px;
+	height:  24px;
+	text-align: center;
+	background:  transparent;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sc-last-segment .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -576px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sc-first-segment {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -600px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment label {
+  background: static_url('images/aristo-theme-repeat-x.png') repeat-x left -552px;
+  text-shadow: #FAFAFA 0 1px 0;
+  color: #4F4F4F;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sc-middle-segment,
+.aristo-theme .sc-segmented-view a.sc-segment.sc-last-segment {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -384px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sc-middle-segment .sc-button-inner,
+.aristo-theme .sc-segmented-view a.sc-segment.sc-first-segment .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -360px;
+}
+
+
+
+
+.aristo-theme .sc-segmented-view a.sc-segment.active.sc-last-segment .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -96px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.active.sc-first-segment {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -120px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.active label {
+  background: static_url('images/aristo-theme-repeat-x.png') repeat-x left -72px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.active.sc-middle-segment,
+.aristo-theme .sc-segmented-view a.sc-segment.active.sc-last-segment {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -528px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.active.sc-middle-segment .sc-button-inner,
+.aristo-theme .sc-segmented-view a.sc-segment.active.sc-first-segment .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -504px;
+}
+
+/* @group Normal - Disabled */
+
+.aristo-theme .sc-segmented-view a.sc-segment.sc-last-segment.disabled .sc-button-inner,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment.sc-last-segment .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -1064px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sc-first-segment.disabled,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment.sc-first-segment {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -1038px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.disabled label,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment label {
+  background: static_url('images/aristo-theme-repeat-x.png') repeat-x left -1014px;
+  color: #999;
+  text-shadow: none;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sc-middle-segment.disabled,
+.aristo-theme .sc-segmented-view a.sc-segment.sc-last-segment.disabled,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment.sc-middle-segment,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment.sc-last-segment {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -1089px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sc-middle-segment.disabled .sc-button-inner,
+.aristo-theme .sc-segmented-view a.sc-segment.sc-first-segment.disabled .sc-button-inner,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment.sc-middle-segment .sc-button-inner,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment.sc-first-segment .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -1114px;
+}
+
+
+
+/* @end */
+
+/* @group Selected */
+
+.aristo-theme .sc-segmented-view a.sc-segment.sc-last-segment.sel .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -240px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sc-first-segment.sel {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -264px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sel label {
+  background: static_url('images/aristo-theme-repeat-x.png') repeat-x left -216px;
+	color: #1c4257;
+	text-shadow: #e9f1f6 0px 1px 0px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sc-middle-segment.sel,
+.aristo-theme .sc-segmented-view a.sc-segment.sc-last-segment.sel {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -432px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sc-middle-segment.sel .sc-button-inner,
+.aristo-theme .sc-segmented-view a.sc-segment.sc-first-segment.sel .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -408px;
+}
+
+/* @end */
+
+/* @group Selected - Disabled */
+
+.aristo-theme .sc-segmented-view a.sc-segment.sel.sc-last-segment.disabled .sc-button-inner,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment.sel.sc-last-segment .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -1442px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sel.sc-first-segment.disabled,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment.sel.sc-first-segment {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -1416px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sel.disabled label,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment.sel label {
+  background: static_url('images/aristo-theme-repeat-x.png') repeat-x left -1392px;
+	color: white;
+	text-shadow: none;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sel.sc-middle-segment.disabled,
+.aristo-theme .sc-segmented-view a.sc-segment.sel.sc-last-segment.disabled,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment.sel.sc-middle-segment,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment.sel.sc-last-segment {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -1467px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.sel.sc-middle-segment.disabled .sc-button-inner,
+.aristo-theme .sc-segmented-view a.sc-segment.sel.sc-first-segment.disabled .sc-button-inner,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment.sel.sc-middle-segment .sc-button-inner,
+.aristo-theme .sc-segmented-view.disabled a.sc-segment.sel.sc-first-segment .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -1492px;
+}
+
+/* @end */
+
+
+
+
+
+/* @group Selected - Active */
+
+.aristo-theme .sc-segmented-view a.sc-segment.active.sel.sc-last-segment .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -312px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.active.sel.sc-first-segment {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -336px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.active.sel label {
+  background: static_url('images/aristo-theme-repeat-x.png') repeat-x left -288px;
+	color: #1c4257;
+	text-shadow: #e9f1f6 0px 1px 0px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.active.sel.sc-middle-segment,
+.aristo-theme .sc-segmented-view a.sc-segment.active.sel.sc-last-segment {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -480px;
+}
+
+.aristo-theme .sc-segmented-view a.sc-segment.active.sel.sc-middle-segment .sc-button-inner,
+.aristo-theme .sc-segmented-view a.sc-segment.active.sel.sc-first-segment .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -456px;
+}
+
+
+
+/* @end */

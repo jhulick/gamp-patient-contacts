@@ -1,0 +1,143 @@
+/* 
+
+  Top Navigation Styling
+
+  @author Jeremy Hulick
+  
+*/
+
+.patients-logo {
+  margin-top: -12px !important;
+  font-size: 18px !important;
+  /* background: static_url('images/logo-s.png') no-repeat 0 0; */
+}
+
+.patients-version {
+  font-size: 10px !important;
+  font-style: italic !important;
+  text-align: center !important;
+  line-height: 11px !important;
+  margin-top: -11px !important;
+  color: #333 !important;
+  background: #2BB9FF none repeat scroll 0 0 !important;
+	padding: 0px !important;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+}
+
+.welcome-message {
+  font-size: 13px !important;
+  text-align: center !important;
+  color: #BBB !important;
+  line-height: 15px !important;
+}
+
+.display-modes {
+  font-size: 9px !important;
+  font-weight: bold !important;
+}
+
+.sc-label-view img {
+  margin-right: 2px !important;
+  vertical-align: middle !important;
+}
+
+.sc-view .search-bar {
+  background: static_url('images/default-theme-search-filter-bg.png') no-repeat;
+}
+
+.filter-icon {
+  margin-right: -1px !important;
+  width: 16px !important;
+  height: 16px !important;
+  background: static_url('images/filter.png') no-repeat 0 0;
+}
+
+.filter-cancel-icon {
+  background: static_url('images/default-theme-static.png') no-repeat 0 -352px !important;
+  z-index: 100 !important;
+  cursor: pointer !important;
+}
+
+.import-icon {
+  width: 16px;
+  height: 16px;
+  background: static_url('images/import.png') no-repeat;
+}
+
+.text-icon {
+  width: 16px;
+  height: 16px;
+  background: static_url('images/text.png') no-repeat;
+}
+
+.html-icon {
+  width: 16px;
+  height: 16px;
+  background: static_url('images/html.png') no-repeat;
+}
+
+.logout-icon {
+  width: 16px;
+  height: 16px;
+  background: static_url('images/logout.png') no-repeat;
+}
+
+.safari .sc-view .search-bar.focus,
+.mozilla .sc-view .search-bar.focus,
+.msie .sc-view .search-bar.focus {
+  outline: 0;
+}
+
+.safari .search-bar .border {
+  -webkit-appearance: transparent !important;
+}
+
+.mozilla .sc-view .search-bar .border {
+  -moz-appearance: transparent !important;
+}
+
+.msie .sc-view .search-bar .border {
+  border: transparent !important;
+}
+
+.sc-view .search-bar .padding {
+  top: 3px;
+  right: 22px;
+}
+
+.sc-view .search-bar .padding {
+  left: 24px;
+}
+
+.search-bar input {
+  font-size: 11px;
+}
+
+.mozilla .search-bar input {
+  top: 4px;
+}
+
+.msie .search-bar input {
+  line-height: 22px;
+}
+
+.sc-text-field-view.search-bar .sc-hint {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 11px;
+  font-style: italic;
+  line-height: 22px;
+}
+
+.title-bar {
+  background: static_url('images/title-bar-bg.png') repeat-x;
+}
+
+.window-title {
+  font-size: 14px !important;
+  text-align: center !important;
+  color: #DDD !important;
+}

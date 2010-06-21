@@ -1,0 +1,158 @@
+.aristo-theme .sc-button-view {
+  text-decoration: none;
+  border: none;
+  padding: 0;
+}
+
+.aristo-theme .sc-button-view.icon img.icon {
+  position: relative;
+  vertical-align: middle;
+  top: -2px;
+  margin-right: 2px;
+  height: 16px;
+  width: 16px;
+}
+
+/**
+ Square Style
+*/
+
+.aristo-theme .sc-button-view.sc-regular-size {
+  text-shadow: #FAFAFA 0 1px 0;
+  color: #4F4F4F;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size .sc-button-inner {
+  display: block;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size .sc-button-label {
+  display: block;
+  text-align: center;
+  padding: 0px 0px 15px 0px;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size.sel .sc-button-label {
+	color: #1c4257;
+	text-shadow: #e9f1f6 0px 1px 0px;
+}
+
+.aristo-theme .sc-button-view.square.disabled .sc-button-label {
+  color: #a7a7a7;
+  text-shadow: #FAFAFA 0 1px 0;
+}
+
+/**
+ Basic
+*/
+
+.aristo-theme .sc-button-view.sc-regular-size.square {
+  font-size: 14px;
+  font-weight: bold;
+  max-height: 24px;
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -24px;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size.square .sc-button-inner {
+  height: 24px;
+  max-height: 24px;
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -48px;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size.square .sc-button-label {
+  height: 18px;
+  line-height: 24px;  
+  margin-left: 15px;
+  margin-right: 15px;  
+  background: static_url('images/aristo-theme-repeat-x.png') repeat-x left 0;
+}
+
+/**
+ Disabled
+*/
+
+.aristo-theme .sc-button-view.sc-regular-size.square.disabled {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -168px;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size.square.disabled .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -192px;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size.square.disabled .sc-button-label {
+  background: static_url('images/aristo-theme-repeat-x.png') repeat-x left -144px;
+}
+
+/**
+ Active
+*/
+
+.aristo-theme .sc-button-view.sc-regular-size.square.active {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -96px;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size.square.active .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -120px;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size.square.active .sc-button-label {
+  background: static_url('images/aristo-theme-repeat-x.png') repeat-x left -72px;
+}
+
+/**
+ Selection
+*/
+
+.aristo-theme .sc-button-view.sc-regular-size.square.sel {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -240px;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size.square.sel .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -264px;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size.square.sel .sc-button-label {
+  background: static_url('images/aristo-theme-repeat-x.png') repeat-x left -216px;
+}
+
+/**
+ Selection Active
+*/
+
+.aristo-theme .sc-button-view.sc-regular-size.square.sel.active {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -312px;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size.square.sel.active .sc-button-inner {
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -336px;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size.square.sel.active .sc-button-label {
+  background: static_url('images/aristo-theme-repeat-x.png') repeat-x left -288px;
+}
+
+/**
+  Select Button
+*/
+
+.aristo-theme .sc-button-view.sc-regular-size.select-button {
+  font-size: 14px;
+  font-weight: bold;
+  max-height: 24px;
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat right -624px;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size.select-button .sc-button-inner {
+  height: 24px;
+  max-height: 24px;
+  background: static_url('images/aristo-theme-repeat-x.png') no-repeat left -600px;
+}
+
+.aristo-theme .sc-button-view.sc-regular-size.select-button .sc-button-label {
+  height: 18px;
+  line-height: 24px;  
+  margin-left: 11px;
+  margin-right: 27px;  
+  text-align: left;
+  background: static_url('images/aristo-theme-repeat-x.png') repeat-x left -552px;
+}
